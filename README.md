@@ -19,7 +19,14 @@ Creación de 2 endpoints de API:
 - **/api/libros/**
 - **/api/libros/1**
 
-## Challenge Front-end
+Ejecutar las siguiente Depencias:
+- **npm i -g npm@latest**
+- **composer install**
 
-Creación de la página con la muestra de tickets de aerolineas, con Vuex.
+Ejecutar Docker
+- **docker compose up**
+
+Ejecutar Migraciones y Seed
+- **docker exec -ti myapp php artisan migrate**
+- **docker exec -ti myapp php artisan db:seed**
 
